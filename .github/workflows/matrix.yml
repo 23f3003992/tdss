@@ -23,7 +23,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: matrix-fd172b8
+      - name: matrix-9fc26f0
         run: echo "Building for ${{ matrix.os }} with Node.js ${{ matrix.node-version }}"
 
       - name: Setup Node.js
